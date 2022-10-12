@@ -2,7 +2,6 @@ import User from '../models/user.model.js';
 
 const getUserInfo = async (req, res, next) => {
   const userData = req.userData;
-  console.log(userData);
 
   if (!userData) {
     return res.status(401).send('Отсутствует userData');

@@ -1,5 +1,5 @@
 {
-  "name": "users-auth-base-server",
+  "name": "auth-base-server",
   "version": "1.0.0",
   "private": true,
   "type": "module",
